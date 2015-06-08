@@ -1,0 +1,60 @@
+@import 'mixin.scss';
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+
+
+
+.wrapper {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 1em;
+  height: 100%;
+  background: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.social{
+  float: right;
+  li{
+    float: left;
+    margin-right: 1em;
+    &:last-child{
+      margin: 0;
+    }
+    a{
+      background: #fff none repeat scroll 0 0;
+      border-radius: 500px;
+      color: #bbbbbb;
+      display: inline-block;
+      height: 32px;
+      line-height: 1em;
+      position: relative;
+      text-align: center;
+      transition: all 0.4s ease 0s;
+      width: 32px;
+      line-height:(36em/16);
+
+      &:hover{
+        color:#EE1C25;
+      }
+
+      i{
+       font-size: (24em/16);
+      }
+    }
+  }
+}
+
+#header{
+  .top-bar{
+    display: table;
+    width: 100%;
+    padding: .25em 0;
+    background: #ededed;
+  }
+}
