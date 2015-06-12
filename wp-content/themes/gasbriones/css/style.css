@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,300,700);
 .wrapper {
   width: 100%;
   max-width: 1170px;
@@ -10,36 +9,35 @@ body {
   height: 100%;
   background: #FFFFFF;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Ubuntu'; }
 
-.social {
-  float: right; }
-  .social li {
+a {
+  color: #888888;
+  text-decoration: none; }
+  a:hover {
+    color: #000;
+    -webkit-transition: ease 1s all;
+    -moz-transition: ease 1s all;
+    -o-transition: ease 1s all;
+    transition-property: ease 1s all; }
+
+.menu li {
+  float: left;
+  margin-right: 1.25em; }
+  .menu li a {
+    text-transform: uppercase; }
+
+#header {
+  padding-top: 3.125em; }
+  #header .logo-wrapper {
+    float: left; }
+  #header .wrapper {
+    border-bottom: 3px solid #eaeaea;
+    padding: 20px 0 24px; }
+  #header .menu-wrapper {
+    display: block;
     float: left;
-    margin-right: 1em; }
-    .social li:last-child {
-      margin: 0; }
-    .social li a {
-      background: #fff none repeat scroll 0 0;
-      border-radius: 500px;
-      color: #bbbbbb;
-      display: inline-block;
-      height: 32px;
-      line-height: 1em;
-      position: relative;
-      text-align: center;
-      transition: all 0.4s ease 0s;
-      width: 32px;
-      line-height: 2.25em; }
-      .social li a:hover {
-        color: #EE1C25; }
-      .social li a i {
-        font-size: 1.5em; }
-
-#header .top-bar {
-  display: table;
-  width: 100%;
-  padding: .25em 0;
-  background: #ededed; }
+    margin: 29px 0 0 125px; }
 
 /*# sourceMappingURL=style.css.map */

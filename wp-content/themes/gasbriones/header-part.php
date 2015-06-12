@@ -1,17 +1,13 @@
-<header id="header">
-    <div class="top-bar theme-red">
-        <div class="wrapper">
-            <ul class="social">
-                <li>
-                    <a class="fb" href="https://www.facebook.com/gasbrioneswd"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a class="tw" href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a class="wh" href="#"><i class="fa fa-whatsapp"></i></a>
-                </li>
-            </ul>
+<header id="header" class="clearfix">
+        <div class="wrapper clearfix">
+            <div class="logo-wrapper">
+                <a class="logo" href="#">
+                    <img title="gasbriones diseño web" alt="gasbriones" src="http://livedemo00.template-help.com/woocommerce_53759/wp-content/themes/theme53759/images/logo.png">
+                </a>
+            </div>
+            <div class="menu-wrapper">
+                <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'header-menu' ) ); ?>
+            </div>
+            <div class="social-wrapper"></div>
         </div>
-    </div>
 </header>
