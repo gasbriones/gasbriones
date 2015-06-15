@@ -16,6 +16,9 @@ body {
   padding: 0;
   font-family: 'Ubuntu';
 }
+.slider{
+  font-family: 'Ubuntu' !important;
+}
 
 a{
   color: #888888;
@@ -27,6 +30,9 @@ a{
   }
 }
 
+.left{
+  float: left;
+}
 
 .menu{
   li{
@@ -42,6 +48,26 @@ a{
   padding-top: (50em/16);
   .logo-wrapper{
     float: left;
+    .logo{
+      img{
+        float: left;
+      }
+      .left{
+        margin: 0  0 0 (10em/16);
+      }
+      h1{
+        font-size: (42em/16);
+        text-transform: uppercase;
+        font-weight: 700;
+
+        .logo-name{
+          color:#333;
+        }
+      }
+      .logo-tag-line{
+        font-size: (12em/16);
+      }
+    }
   }
 
   .wrapper{
@@ -51,6 +77,19 @@ a{
   .menu-wrapper{
     display: block;
     float: left;
-    margin: 29px 0 0 125px;
+    margin: (44em/16) 0 0 (125em/16);
+  }
+
+  .social-wrapper{
+    float: right;
+    .social{
+      li{
+        float: left;
+        margin: 0 0 0 (10em/16);
+        a{
+          font-size: (22em/16);
+        }
+      }
+    }
   }
 }
