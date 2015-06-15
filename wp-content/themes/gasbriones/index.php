@@ -9,7 +9,7 @@ Template Name: home
 <?php get_header(); ?>
 <body class="home">
 <?php get_template_part('header-part') ?>
-<div class="main wrapper clearfix">
+<div class="main  clearfix">
     <section class="content clearfix">
         <?php if ( have_posts() ) : ?>
             <?php while ( have_posts() ) : the_post();  ?>
